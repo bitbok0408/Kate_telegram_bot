@@ -8,7 +8,7 @@ def hello(bot, update, args):
     update.message.reply_text("HIIII")
 
 
-updater = Updater('714097148:AAHsIAhDvwU5NzdBM1KOJbJCIwXTx7qU918')
+updater = Updater('')
 
 updater.dispatcher.add_handler(CommandHandler("question", hello, pass_args=True))
 
