@@ -109,6 +109,6 @@ class DialogBot(object):
 
 
 if __name__ == "__main__":
-    token = "714097148:AAHsIAhDvwU5NzdBM1KOJbJCIwXTx7qU918"
+    token = ""
     dialog_bot = DialogBot(token)
     dialog_bot.begin()
